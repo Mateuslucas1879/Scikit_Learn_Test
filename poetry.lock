@@ -1534,6 +1534,16 @@ files = [
 ]
 
 [[package]]
+name = "sklearn"
+version = "0.0.post11"
+description = "deprecated sklearn package, use scikit-learn instead"
+optional = false
+python-versions = "*"
+files = [
+    {file = "sklearn-0.0.post11.tar.gz", hash = "sha256:af035c4f0b970b7fc2d3856079aa1aa1032df3d7f65048a9d87114abf13c4629"},
+]
+
+[[package]]
 name = "taskipy"
 version = "1.12.0"
 description = "tasks runner for python projects"
@@ -1620,4 +1630,4 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10.6"
-content-hash = "4797dc10853bbfdd0bfd0ce16e4074f29887f20556cd96813793bb91508194c3"
+content-hash = "2bf2a6eff19d4bf1fc7caa935180712e26aaa083b677ed6f78a5ffd58094013b"
